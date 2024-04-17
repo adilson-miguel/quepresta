@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+
+}
+body{
+    background-color: rgb(17, 17, 17);
+}
+.container{
+    background-image: url(img/gestao-orcamental-454.jpg);
+    padding: 20px;
+    min-width:450px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+.welcome{
+    width: 600px;
+    height: 450px;
+    /* background-image: url(img/vendaonline.png); */
+    background-size: cover;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    /* backdrop-filter: blur(10px); */
+   border-radius: 20px;
+}
+.welcome h1{
+    color: white;
+    font-size: 4rem;
+}
+.welcome p{
+    color: white;
+    font-size: 1.5rem;
+}
+.servicos{
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+.flyer img{
+    width: 350px;
+    height: auto;
+    margin: 20px;
+}
+.servicos .texto-1{
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    padding: 20px;
+    background-color: rgb(32, 8, 1);
+    color: white;
+    width: 84%;
+}
+.servicos .texto-1 h1{
+    background-color: #ff5e00;
+    padding: 10px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.servicos h1:hover{
+    background-color:#fc6c18;
+}
+ hr{
+    width: 450px;
+    border-color: #ff5e00;
+    margin: 20px auto;
+    display: block;
+}
+.flyer .artes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h3{
+    background-color: #E95500;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+.welcome h3:active{
+    background-color: #a13b00;
+}
+form{
+    height: 430px;
+    color:  rgb(17, 17, 17);
+    width:100% ;
+    
+}
+form input{
+    min-width: 300px;
+    margin: 8px;
+    padding: 8px;
+    color:  rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color: rgb(255, 123, 0);
+}
+/* @media(max-width:700px){
+    .welcome h1{
+        font-size: 2.7rem;
+    }
+    .welcome p{
+        font-size: 1rem;
+    }
+   
+    .desenvolvedor a{
+        font-size: 0.7rem;
+    }
+    .desenvolvedor div img{
+        width: 35px;
+        height: 35px;
+    }
+    #localidade{
+        width: 100px;
+        color:  rgb(109, 25, 0);
+        border-radius: 8px;
+        border-color: rgb(255, 123, 0);
+    }
+    #submit{
+        width:50%;
+        padding: 10px;
+        margin: 0px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        background-color:  rgb(255, 255, 255);
+        color: white;
+    } 
+  }  
+    */
+ 
+#localidade{
+    min-width: 320px;
+    margin: 0px 8px;
+    padding: 10px;
+    margin: 10px;
+    color:  rgb(0, 0, 0);
+    border-radius: 8px;
+    border-color: rgb(255, 123, 0);
+} 
+
+#submit{
+    min-width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:  rgb(255, 81, 0);
+    color: white;
+}
+::placeholder{
+    color: rgb(138, 138, 138);
+}
+legend{
+    color: white;
+    
+}
+fieldset{
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(255, 123, 0);
+}
+
+.inscricao{
+    background-image: linear-gradient(to right, rgb(119, 24, 0),  rgb(168, 62, 0));
+    padding: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(4px 5px 8px);
+}
+.welcome-1{
+    background-image: linear-gradient(to left, rgb(119, 24, 0),  rgb(168, 62, 0));
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+}
+.welcome-1 a{
+    color: #ffffff;
+    padding: 10px;
+}
+
+.welcome-1 .desenvolvedor{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desenvolvedor .e-mail, .insta, .phone{
+    padding: 4px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+.desenvolvedor img{
+    width: 40px;  
+}
+a img{
+    width: 80px;
+    animation-name: marca;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-direction: alternate;
+}
+/* @keyframes marca {
+    0%{
+        transform: translateX(80px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+    
+} */
+.nav{
+    background-color: rgb(73, 26, 4);
+    height: auto;
+}
+.nav .nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.nav .nav-1 ul{
+    display: flex;
+}
+.menu li{
+    padding: 5px;
+}
+.nav-1{
+    width: auto;
+    margin:  0 180px;
+}
+li , a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+li a{
+    background-color: #E95500;
+    height: 20px;
+    padding: 15px;
+}
+#arquivo{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+}
+li a:hover{
+    background-color:rgb(54, 54, 54);
+    border-bottom: rgb(255, 255, 255) solid 2px;
+}
+
+/**
+@keyframes mover {
+    0%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+**/
